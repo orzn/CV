@@ -5,7 +5,7 @@ title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "郭巍"
 jobtitle: "Java研发工程师" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "13276713390"
   href: 'tel:13276713390'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: "http://orzn.me"
   href: 'http://orzn.me'
   icon: 'icons/web.svg'
 #- text: "GitHubID"
@@ -38,13 +38,9 @@ main: #简历主要内容，
     duration: "2012年9月 - 2016年7月"
     sub: 本科
     detail: 网络工程
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
 
 - type: skills
-  # name: "技能"
+  name: 技能
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
@@ -55,56 +51,54 @@ main: #简历主要内容，
     summary: Consectetur, Adipiscing, Elit
 
 - type: experience
-  name: 经验
+  name: 实习经验
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+  - title: Java后台开发
+    sub: 搜狗公司
+    duration: "2018年7月 - 至今"
+#    tags:
+#    - 标签
+    summary: 在品牌广告部分，负责广告投放管理系统的后端开发。
+    detail: 实现了权限管理模块和系统邮件查询模块。
+    open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 项目经验
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
+  - title: 一般图的可达性查询
+    duration: 2017年10月 - 至今
+    detail: 分布式环境下图的可达性查询研究很少，且效率一般。因此，我们针对这个问题进行研究。针对路径受限和非受限两种情况，提出两种索引及查询算法。
+    sub: 参与算法设计，负责所有代码开发
+  - title: 时态图的可达性查询
+    duration: 2017年3月 - 至今
+    detail: 时态图中边上包含一个时间范围。基于giraph这个分布式的图处理框架，我们提出了一种高效的构建索引方法，以及一些基本可达性问题的查询算法。通过和4种算法的对比，也验证了提出算法的高效性，可扩展性。
+    sub: 参与算法设计，负责所有代码开发
+  - title: 在大图上的相似性搜索
+    duration: 2016年9月 - 2017年3月
+    detail: 算法包括预处理阶段和查询阶段，分别在hadoop和giraph上实现。在预处理阶段，用KD-tree树或kmeans对图划分，求得每个节点的k近邻，将结果和原图结合，获得超图。查询阶段，我们提出一种高效的RWR计算方法，在之前获得的超图上进行相似性搜索。
+    sub: 参与算法设计，负责所有代码开发
       md: _data/demo.md
     sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+#others: #其他列表显示
+#- type: others #ID可以为空
+#  name: '其他'
+#  content: #选择需要的格式
+# - 单行文字
+#  - title: "加粗:"
+#    text: "列表项二"
+#  - title: "兴趣:"
+#    items: #单行列表
+#    - 睡觉
+#    - 吃饭
+#    - coding
+#  - title: 列表
+#    list:
+#    - 第一项
+#    - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式

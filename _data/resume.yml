@@ -45,9 +45,7 @@ main: #简历主要内容，
   - title: 编程
     items: #itmems 可以小块的方式显示
     - 熟悉Java
-#  - title: 框架
-#    items:
-    - 熟悉spring, mybatis, 使用过hadoop，giraph等
+    - 了解spring, mybatis, 使用过hadoop，giraph等
     - 了解linux常用命令
 #    summary: Consectetur, Adipiscing, Elit
 

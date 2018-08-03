@@ -59,7 +59,7 @@ main: #简历主要内容，
 #    tags:
 #    - 标签
     summary: 在品牌广告部分，负责广告投放管理系统的后端开发。
-    detail: 实现了权限管理模块和系统邮件查询模块。
+    detail: 开发使用的spring，mybatis和mysql。实现了权限管理模块和系统邮件查询模块。
     open: open
     #可以设置open默认展开
 

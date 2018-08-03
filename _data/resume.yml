@@ -42,13 +42,13 @@ main: #简历主要内容，
 - type: skills
   name: 技能
   content:
-#  - title: 
+  - title: 
     items: #itmems 可以小块的方式显示
     - 熟悉Java
-    - 了解linux常用命令
 #  - title: 框架
 #    items:
     - 熟悉spring, mybatis, 使用过hadoop，giraph等
+    - 了解linux常用命令
 #    summary: Consectetur, Adipiscing, Elit
 
 - type: experience

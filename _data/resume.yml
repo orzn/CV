@@ -78,7 +78,7 @@ main: #简历主要内容，
     duration: 2016年9月 - 2017年3月
     detail: 算法包括预处理阶段和查询阶段，分别在hadoop和giraph上实现。在预处理阶段，用KD-tree树或kmeans对图划分，求得每个节点的k近邻，将结果和原图结合，获得超图。查询阶段，我们提出一种高效的RWR计算方法，在之前获得的超图上进行相似性搜索。
     sub: 参与算法设计，负责所有代码开发
-      md: _data/demo.md
+ #     md: _data/demo.md
     #sub: Creator and maintainer.
    #可继续添加更多内容
 

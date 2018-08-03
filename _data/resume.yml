@@ -44,10 +44,15 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-#  - title: Skill Group
+    - 熟悉Java
+    - 了解linux常用命令
+  - title: web框架
+    items:
+    - 了解spring
+    - 了解mybatis
+  - title: 分布式框架
+    items:
+    - 使用过hadoop，giraph等
 #    summary: Consectetur, Adipiscing, Elit
 
 - type: experience

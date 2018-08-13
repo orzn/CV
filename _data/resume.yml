@@ -4,7 +4,7 @@
 title: ""
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "郭巍"
-jobtitle: "Java研发工程师，基础平台研发工程师" #可空不显示
+jobtitle: "Java研发工程师" #可空不显示
 photo: "" #照片可空，不显示
 
 #联系方式
@@ -58,7 +58,7 @@ main: #简历主要内容，
 #    tags:
 #    - 标签
     summary: 在品牌广告部分，负责广告投放管理系统的后端开发。
-    detail: 开发使用的spring，mybatis和mysql。实现了权限管理模块和系统邮件查询模块。
+    detail: 开发使用的spring，mybatis和mysql。
     open: open
     #可以设置open默认展开
 

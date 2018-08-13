@@ -42,8 +42,8 @@ main: #简历主要内容，
 - type: skills
   name: 技能
   content:
-  - title:语言技能
-    items:
+  - title: 语言技能
+    items: #itmems 可以小块的方式显示
     - 英语六级（508）
   - title: 专业技能
     items: #itmems 可以小块的方式显示

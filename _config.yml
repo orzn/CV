@@ -1,6 +1,6 @@
 title: 简历模板
 #baseurl: "" # default set by github
-querytime: true  #在头像,js和css等后加上时间戳防止缓存,false关闭
+querytime: false  #在头像,js和css等后加上时间戳防止缓存,false关闭
 manifest: '' # html5离线缓存配置文件名,默认关闭
 #打印样式设置
 subject-width: 20% #左边栏宽度

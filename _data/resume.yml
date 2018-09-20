@@ -57,7 +57,7 @@ main: #简历主要内容，
   content:
   - title: Java后台开发
     sub: 搜狗公司
-    duration: "2018年7月 - 至今"
+    duration: "2018年7月 - 2018年9月"
 #    tags:
 #    - 标签
     summary: 在品牌广告部分，负责广告投放管理系统的后端开发。
